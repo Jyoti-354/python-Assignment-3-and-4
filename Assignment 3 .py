@@ -4,7 +4,7 @@ def fun1(a , b = 0, * args,**kwargs) :
 	print(args)
 	print(kwargs)
 	
-fun1(10 ,20, 30, 40, A=30, B=40)
+fun1(10 ,0, 30, 40, A=30, B=40)
 
 
 
